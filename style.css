@@ -1,0 +1,120 @@
+body {
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-size: cover;
+	background-image: url("./img/fond2.png");
+}
+
+h1 {
+	text-align: center;
+	width: 11vw;
+    border-radius: 8px;
+    border: 3px solid #663300;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -0.4%;
+    margin-bottom: 0;
+    display: block;
+    font-family: 'Glam_Queen';
+    font-size: 2.5vw;
+    color: #663300;
+}
+
+h2 {
+	text-align: center;
+	display: block;
+	margin: auto;
+	padding-top: 1.5vh;
+	color: #000099;
+	font-family: 'Glam_Queen';
+	font-size: 28px;
+	text-decoration: underline;
+	font-style: italic;
+	text-shadow: #666666 0.02em 0.02em 1em;
+}
+
+h3 {
+	color: #ff3300;
+	font-family: 'Glam_Queen';
+	font-size: 28px;
+	margin-bottom: 0;
+	margin-top: 0.6%;
+	text-decoration: underline;
+}
+
+select {
+	margin-bottom: 2%;
+}
+
+td {
+	font-family: 'Glam_Queen';
+	font-size: 24px;
+	font-weight: bold;
+	text-align: left;
+	width: 24%;
+}
+
+
+
+#imgJouer {
+	width: 5vw;
+	height: auto;
+	margin-top: 0.2vw;
+}
+
+#imgTirerThemes {
+	margin-bottom: -2%;
+	width: 9vw;
+	height: auto;
+	padding-left: 2%;
+}
+
+#listThemes {
+	width: 45%;
+	margin-left: 27.5%;
+	margin-right: 27.5%;
+	margin-bottom: 0.2vw;
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 8px;
+}
+
+p {
+	width: 40%;
+	display: inline;
+	text-align: center;
+	margin-top: 2%;
+	margin-bottom: -3%;
+	font-family: 'Glam_Queen';
+	font-size: 24px;
+	font-weight: bold;
+	text-decoration: underline;
+	margin-right: 0.5%;
+}
+	#btnTheme {
+		margin-top: 2%;
+		width: auto;
+		height: auto;
+		margin-left: 3%;
+	}
+
+	#themesTiresAuSort {
+		width: 35%;
+		margin-left: 32.5%;
+		margin-right: 32.5%;	
+		text-align: center;
+		border: 2px solid black;
+		border-radius: 8px;
+	}
+
+#btnJouer {
+	margin-top: 2%;
+	margin-bottom: 0;
+}
+
+@font-face {
+    font-family: 'Glam_Queen';
+    src: url('./font/Glam_Queen.ttf') format('truetype');
+}

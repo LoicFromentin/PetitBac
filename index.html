@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- <link rel="icon" href="img/icon.jpg"> -->
+
+    <title>Petit Bac</title>
+
+    <!-- Ajout CSS -->
+    <link href="./style.css" rel="stylesheet">
+
+</head>
+
+<body onload="setListThemes()">
+
+    <header>
+    </header>
+
+
+    <main role="main">
+        <h1>Petit Bac !</h1>
+
+        <!-- Page pour choisir les themes -->
+        <div id="divThemes">
+
+            <h2>Avant de jouer, il faut choisir les thèmes !</h2>
+
+            <h3>Liste des thèmes :</h3>
+            <table id="listThemes"></table>
+
+            <div id="divTirerThemes">
+                <p>Nombre de thèmes :</p>
+                <select id="thelist" onChange="majNbThemes()">
+                    <option>0</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                </select> 
+                <!--<input id="btnTheme" type="button" value="Tirer les thèmes au sort" onclick="majHTMLThemesTires ()">-->
+                <img id="imgTirerThemes" onclick="majHTMLThemesTires ()" src="./img/btnTirerThemes.png">
+            </div>
+
+            <div id='divThemesTires'></div>
+
+            <!--<input id="btnJouer" type="button" value="Jouer" onclick="">-->
+            <a href="./game.html"><img id="imgJouer" src="./img/btnJouer.png"></a>
+        </div>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

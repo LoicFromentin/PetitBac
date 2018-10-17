@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- <link rel="icon" href="img/icon.jpg"> -->
+
+    <title>Petit Bac</title>
+
+    <!-- Ajout CSS -->
+    <link href="./style2.css" rel="stylesheet">
+
+</head>
+
+<body onload="getAlphabet();">
+
+    <header>
+    </header>
+
+
+    <main role="main">
+        <h1>Petit Bac !</h1>
+
+        <h2>Consigne : Pour chaque thème, trouver un mot commançant par la lettre tirée au sort.</h2>
+        <h2>Bonne chance !</h2>
+
+        <div id="contenu">
+            <div id="divLettre">
+                <h4>Lettre :</h4>
+                <h4 id="lettre"></h4>
+                <img id="imgTirerLettre" src="./img/btnTirerLettre.png" onclick="getLettre();getAlphabet();">
+            </div>
+            <div id="divAlphabet">
+                <h3>Lettres restantes :</h3>
+                <p id="alphabet"></p>
+            </div>
+            <div id="divBtn">
+                <a href="./index.html"><img class="btn1" id="btnChangerThemes" src="./img/btnChangerThemes.png"></a>
+                <a href="./game.html"><img class="btn1" src="./img/btnRejouer.png"></a>
+        </div>
+        </div>
+        <div id="divBtn" style="visibility: hidden;">
+            <a href="./index.html"><img class="btn2" id="btnChangerThemes" src="./img/btnChangerThemes.png"></a>
+            <a href="./game.html"><img class="btn2" src="./img/btnRejouer.png"></a>
+        </div>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
